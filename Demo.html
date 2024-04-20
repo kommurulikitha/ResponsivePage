@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OrderFood</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; }
+  .navbar { background-color: #FF7070; overflow: hidden; display: flex; flex:1}
+  .navbar a{ float: left; display: block; color: #333; text-align: center; padding: 14px 16px; text-decoration: none; }
+  .page { display: flex; flex-wrap: wrap; margin-bottom: 20px; background: linear-gradient(to right, #FFF1B2 ,#FFCAD3); padding: 20px; }
+  .text-section, .image-section { flex: 1; min-width: 300px; }
+  .text-section { background: linear-gradient(to right, #FFF1B2 ,#FFCAD3); padding: 20px; }
+  .image-section img { width: 100%; height: auto; }
+  .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
+  .gallery img { max-width: 100%; padding: 5px; box-sizing: border-box; }
+  @media screen and (max-width: 600px) {
+    .navbar a { float: none; width: 100%; }
+    .page { flex-direction: column; }
+    .gallery { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#food">Food</a>
+  <a href="#restaurant">Restaurant</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contactus">Contact Us</a>
+  <div>
+  <a href="#menubar">
+    <img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\menu-bar.png" alt="Gallery Image 4" width="16px" height="14px">
+  </a>
+  </div>
+</div>
+
+<div class="page">
+  <div class="text-section">
+    <h1>LOREM IPSUM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus lacinia odio sit amet euismod. Maecenas metus quam, malesuada id viverra eros. Donec cursus laoreet neque nec faucibus purus. Nullam quis dolor in tincidunt erat pretium.</p>
+    <button type="button" style="background-color: #FF7070; border:0">Click Me!</button>
+  </div>
+  <div class="image-section">
+    <img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\pexels-robin-stickel-70497.jpg" alt="Delicious Burger">
+  </div>
+</div>
+
+<div class="page" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+  <div class="gallery" style="flex: 1; min-width: 250px;">
+    <table>
+      <tr>
+        <td><img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\pexels-rachel-claire-6752433.jpg" alt="Gallery Image 1" alt="Outdoor Setting" style="width: 50%; height: auto;"></td>
+        <td rowspan="2"><img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\pexels-mister-mister-3434523.jpg" alt="Gallery Image 3" alt="Indoor Setting" style="width: 50%; height: auto;"></td>
+      </tr>
+      <tr>
+        <td><img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\pexels-eva-bronzini-6141651.jpg" alt="Gallery Image 2" alt="Food Items" style="width: 50%; height: 100%;"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="text" style="flex: 1; min-width: 250px; background-color:#FF7070; padding: 20px; text-align: center;">
+      <p>LOREM IPSUM</p>
+      <h1>LOREM IPSUM SET ADEMIR</h1>
+      <button type="button" style="background-color: #FF7070; border:0">Click <img src="C:\Users\kommu\Downloads\HTML CSS Assignment- (2)\HTML CSS Assignment\icons8-arrow-30.png" alt="Gallery Image 5" ></button>
+  </div>
+</div>
+
+</body>
+</html>
